@@ -6,7 +6,7 @@ This is a Keras implementation of "CBAM: Convolutional Block Attention Module" (
 <h2> CBAM: Convolution Block Attention Module </h2>
 
 <div>
-  CBAM proposes an architectural unit called "Convolutional Block Attention Module" (CBAM) block to improve representation power by using attention mechanism: focusing on important features and supressing unnecessary ones. This research can be considered as a descendant and an improvement of "Squeeze-and-Excitation Networks".  (https://arxiv.org/pdf/1709.01507) <br>
+  CBAM proposes an architectural unit called "Convolutional Block Attention Module" (CBAM) block to improve representation power by using attention mechanism: focusing on important features and suppressing unnecessary ones. This research can be considered as a descendant and an improvement of "Squeeze-and-Excitation Networks".  (https://arxiv.org/pdf/1709.01507) <br>
  </div>
 <div>
  <h3> Diagram of a CBAM_block <h3>
