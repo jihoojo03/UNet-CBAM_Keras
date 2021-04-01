@@ -7,7 +7,7 @@ This homework asks you to construct p c test which builds, and tests a given C p
  </div>
  <div>
   <h3> About Command Line <h3>
-            > $ pctest i <testdir> t <timeout> <solution> <target> 
+                                              $ pctest i <testdir> t <timeout> <solution> <target> 
    <div>  A user gives <testdir> a path to a directory where the test input files are stored. All files under <testdir> will be recognized as input files. <timeout> specifies the time limit of a program execution in seconds. It should be an integer between 1 and 10. <solution> and <target> give a filename of the excutable file of the correct version and a filename of the excutable file of a student’s program under test, respectively.  </div>
  </div>
  
