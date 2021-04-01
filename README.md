@@ -19,12 +19,15 @@ The summary include (1) the number of the correct test executions and the number
  <div>
   <h3> Checking Test Results <h3>
  <div>
+  ---
+  <h5>
  pctest determines that target fails for a given test input if the corresponding test execution falls into one of the following cases:
   - the program does not terminate within a certain amount of execution time (i.e., time over), or
   - the text printed to the standard output is not identical to that of solution.
   - the maximum execution time of a single test run in milliseconds, and
   - the minimum execution time of a single test run in milliseconds, and
   - the sum of the execution time of all test runs in milliseconds.
+ </h5>
   </div>
  </div>
 
