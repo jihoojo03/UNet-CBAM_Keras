@@ -7,8 +7,8 @@ This homework asks you to construct p c test which builds, and tests a given C p
  </div>
  <div>
   <h3> About Command Line <h3>
-             $ pctest i <testdir> t <timeout> <solution> <target> 
-    A user gives <testdir> a path to a directory where the test input files are stored. All files under <testdir> will be recognized as input files. <timeout> specifies the time limit of a program execution in seconds. It should be an integer between 1 and 10. <solution> and <target> give a filename of the excutable file of the correct version and a filename of the excutable file of a student’s program under test, respectively.
+            > $ pctest i <testdir> t <timeout> <solution> <target> 
+   <div>  A user gives <testdir> a path to a directory where the test input files are stored. All files under <testdir> will be recognized as input files. <timeout> specifies the time limit of a program execution in seconds. It should be an integer between 1 and 10. <solution> and <target> give a filename of the excutable file of the correct version and a filename of the excutable file of a student’s program under test, respectively.  </div>
  </div>
  
 <h2> Test Result </h2>
@@ -17,12 +17,14 @@ The summary include (1) the number of the correct test executions and the number
  </div>
  <div>
   <h3> Checking Test Results <h3>
+    <div>
     pctest determines that target fails for a given test input if the corresponding test execution falls into one of the following cases:
     - the program does not terminate within a certain amount of execution time (i.e., time over), or
     - the text printed to the standard output is not identical to that of solution.
     - the maximum execution time of a single test run in milliseconds, and
     - the minimum execution time of a single test run in milliseconds, and
     - the sum of the execution time of all test runs in milliseconds.
+    </div>
  </div>
 
 <h2> Demo Link </h2>
